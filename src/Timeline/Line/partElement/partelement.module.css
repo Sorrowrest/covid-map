@@ -1,0 +1,7 @@
+.part_el {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}

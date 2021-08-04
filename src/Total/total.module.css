@@ -1,0 +1,10 @@
+.InfoDate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.info {
+    padding: 0 3%;
+    white-space: nowrap;
+}

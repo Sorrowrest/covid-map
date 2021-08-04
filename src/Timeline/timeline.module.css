@@ -1,0 +1,20 @@
+.backTimeLine {
+    width: 100vw;
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+    transition: all 1s;
+    height: 30%;
+    flex-direction: column;
+}
+
+.backTimeLine:hover {
+    animation: learn  1s both;
+}
+
+@keyframes learn {
+    from {opacity: 0.3;}
+    to {opacity: 1;}
+   }

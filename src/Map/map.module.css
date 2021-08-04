@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    overflow: hidden;
+  }
+  path {
+    cursor: pointer;
+  }
+  path:hover {
+    fill: deepskyblue;
+  }
+  .map {
+    margin-top: 3%;
+    height: 80%;
+    width: 100%;
+    display: flex;
+  }
+
+  .Top {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-bottom: 10px;
+  }
+  .svgbox {
+    display: flex;
+    justify-content: center;
+  }
